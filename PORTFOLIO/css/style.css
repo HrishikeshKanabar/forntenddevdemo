@@ -1,0 +1,185 @@
+/* APPLY STYLE TO ALL */ 
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* start tab */ 
+
+.header{
+	position: absolute;
+	width: 1000px;
+	top: 25px;
+	margin-left: 400px;
+	
+}
+
+.tabs ul{
+	display: flex;
+	background: #fbfbfb;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+
+.tabs ul li{
+	width: 250px;
+	padding: 15px;
+	border-right: 1px solid #dddddd;
+	text-align: center;
+	color: #3b3b3b;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	position: relative;
+}
+
+/* end tab */ 
+
+/* Start tab  content*/
+
+.content{
+	background: #fbfbfb;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top:90px;
+}
+
+.tab_wrap .title{
+	font-size: 20px;
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+
+.tab_wrap .tab_content p{
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+
+
+/* end tab  content*/ 
+
+/* Profiel image start */
+
+.home-image{
+	display:inline;
+	position:relative;
+	left:875px;
+	margin-top:25px;
+}
+
+.name{
+
+	position: absolute;
+	top:40px;
+	left:10px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+
+
+.home-text{
+ 
+   display:inline;
+   position:absolute;
+   top:250px;
+   right:700px;
+   left:60px;
+   font-size:18px;
+
+   
+}
+
+.home-button-hireme{
+  
+	position:absolute;
+	top:400px;
+	right:700px;
+	left:200px;
+	display: inline;
+	background-color: #6b03fc;
+	border-radius: 5px;
+	font-size: 18px;
+	border: 2px solid #6b03fc; 
+	padding: 16px 32px;
+
+}
+
+.home-button-getcv{
+
+	position:absolute;
+	top:400px;
+	right:700px;
+	left:60px;
+    display: inline;
+	background-color: #6b03fc;
+	border-radius: 5px;
+	font-size: 18px;
+	border: 2px solid #6b03fc; 
+	padding: 16px 32px;
+
+
+}
+
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+	position:relative;
+	left: 500px;
+	border-radius: 5px;
+	width:500px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	
+  }
+
+  /* table style */
+
+  table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  

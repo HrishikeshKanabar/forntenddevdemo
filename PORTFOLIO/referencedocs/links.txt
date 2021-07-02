@@ -1,0 +1,11 @@
+for icons:
+
+https://fontawesome.com/v6.0/docs/web/add-icons/how-to#add-icons-to-html
+
+for tabs:
+
+https://github.com/codingmarket07/CSS-Tabs-M20
+
+
+
+
